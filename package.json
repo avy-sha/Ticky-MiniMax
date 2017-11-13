@@ -1,0 +1,26 @@
+{
+    "name": "tictactoe",
+    "version": "1.0.0",
+    "description": "A TicTacToe game with the MiniMax Algorithm",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/kodejuice/tictactoe.git"
+    },
+    "keywords": [
+        "tictactoe",
+        "minimax",
+        "ai"
+    ],
+    "author": "Sochima Biereagu, @KodeJuice",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kodejuice/tictactoe/issues"
+    },
+    "homepage": "https://github.com/kodejuice/tictactoe#readme",
+    "devDependencies": {
+        "babel-preset-es2015": "^6.24.1",
+        "gulp": "^3.9.1",
+        "gulp-babel": "^6.1.2",
+        "gulp-print": "^2.0.1"
+    }
+}

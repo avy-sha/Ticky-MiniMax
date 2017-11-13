@@ -1,0 +1,139 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clr{
+    clear: both;
+}
+
+body{
+   background: #eee; 
+}
+
+.body{
+    width: 900px;
+    height: 620px;
+    padding: 4px;
+    margin: 10px auto;
+    position: relative;
+    background: #fff;
+}
+
+.clear{
+    clear: both;
+}
+
+h1#title{
+    margin: 0 auto;
+    font-size: 40px;
+    color: #333;
+}
+
+div.left{
+    width: 55%;
+    margin-top: 25px;
+    float: left;
+}
+
+div.left div.mode{
+    margin: 4px auto;
+    text-align: center;
+    display: block;
+    
+}
+
+div.board{
+  width: 420px;
+  height: 420px;
+  margin: 10px auto 0 auto;
+  border: 1px solid #ffa4bd;
+  border-radius: 1px;
+}
+
+div.board div.cell{
+    width: 140px;
+    height: 140px;
+    line-height: 120px;
+    font-size: 70px;
+    border: 2px solid #ffa4bd;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+span.x{
+   color: #a4bcff; 
+}
+
+span.o{
+    color: #ffcb4a;
+}
+
+button{
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 3px;    
+}
+
+div.mode div.buttons button{
+    padding: 9px;
+    margin-top: 7px;
+    border: 1px solid #ccc;
+    background: #bbffa4;
+    text-transform: uppercase;
+}
+
+button.reset{
+    background: rgb(255, 184, 133);
+    padding: 10px;
+    border: 1px solid #eee;
+    margin: 10px auto;
+    display: block;
+}
+
+div.mode div.buttons button.active{
+    background: #a4bcff;
+    color: #fff;
+}
+
+div.mode div.buttons button:hover{
+    background: rgb(209, 221, 255);
+    color: #111;
+}
+
+div.right{
+    float: right;
+    margin-top: 25px;
+    width: 44%;
+}
+
+table#scores{
+    margin-left: 30px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    width: 350px;
+    display: block;
+}
+
+
+table#scores td{
+   width: 31%; 
+   text-align: center;
+   font-size: xx-large;
+   width: 31%;
+   height: auto;
+   border-radius: 1px;
+   padding: 4px;
+   border: 1px solid #ffa4bd;
+}
+
+table#scores tr{
+    width: auto;
+    height: auto;
+}
